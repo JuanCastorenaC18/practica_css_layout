@@ -1,0 +1,86 @@
+/** {
+    margin: auto;
+    padding: 0;
+    font-family: arial;  
+}*/
+
+/*body: cuerpo de la página*/
+body {
+    background-color: #deeebc; 
+}
+
+/*cabecera*/
+header { 
+    background-color: #fffafa;
+    border: black 7px solid; 
+}
+header h1 { 
+    text-align: center; 
+    color: black; 
+    padding: 0.5em; 
+    font-size: 1.0em; 
+}
+
+/*navegador*/
+nav {
+    background-color: #fffafa; 
+    min-height: 2em;
+    margin-top: 10px;
+    text-align: center;
+    border: black 7px solid;
+}
+nav h1 {
+    text-align: center; 
+    display: inline;
+    padding: 0.5em; 
+    font-size: 1.0em; 
+}
+
+
+/*principal: section:*/
+section {
+    margin-top: 10px;
+    border: black 7px solid;
+    width: 70%; background-color: #fffafa; 
+    float: left; 
+    margin-bottom: 10px;
+    height: 580px;
+}
+section h1 {
+    text-align: center; padding: 0.5e; font-size: 1.4em; 
+}
+
+/*artículos: article*/
+article {
+    margin: 0.5em 3em; 
+    padding: 0.5em 2em; 
+    background-color:#9dc4da;
+}
+article p {
+    text-align: justify;
+}
+
+/*propaganda: aside*/
+aside {
+    background-color: #fffafa;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: black 7px solid;
+    width: 27%; float: left;
+    height: 580px;
+    text-align: center;
+}
+
+/*pie de página: footer*/
+footer {
+    margin-top: 40px;
+    border: black 7px solid;
+    clear: both; 
+    background-color: #fffafa;
+}
+footer h1 {
+    text-align: center;
+    font-size: 1.4em;
+    color: black;
+    padding: 0.7em;
+}
